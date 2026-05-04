@@ -1,7 +1,7 @@
 # Can You Judge a Movie's Success by Its Poster?
 ### DS 4002 Case Study by Rowan Rosenblum
 
-![Movie Poster Analysis](SUPPLEMENTAL_MATERIALS/poster_collage.png)
+![Movie Poster Analysis](SUPPLEMENTAL_MATERIALS/movie_poster_boxoffice_cover.png)
 
 ## Overview
 

@@ -1,5 +1,7 @@
 # Data Preparation Guide
 
+## NOTE: These steps are included if you wish to make the dataset entirely from scratch. The original dataset which this project spawned from, MASTER_RELEASE_SCHEDULE_UPDATE4.csv, is contained within this folder. This dataset already has all 80,000+ films and their unique IDs from 2016-2025, which came from the general public-use IMDb datasets. This dataset also contains information scraped from TMDb (release dates and general info for each film) as well as revenue data scraped from Box Office Mojo, in addition to many derived variables that are not relevant to this project. Further, ALL_POSTER_METADATA.csv contains the poster metadata for the 21,000+ films from the original dataset with valid revenue data, and FEATURED_ENGINEERED_DATA_ALL.csv is the finalzied dataset that contains the 21,000+ films with revenue data, and has the extracted visual features. Note that it still contains many variables from MASTER_RELEASE_SCHEDULE_UPDATE4.csv which are not relevant to the project. The relevant features are listed in DATA_DICTIONARY.md.
+
 ## For the Provided Sample Dataset
 
 The `sample_poster_features.csv` file in this folder is **ready to use** with no additional preparation needed. It contains pre-extracted visual features for ~1,000 films. Simply load it with:
@@ -19,7 +21,7 @@ The original analysis used 21,000+ films. If you want to extract features from a
 
 1. Create a free account at [https://www.themoviedb.org/](https://www.themoviedb.org/)
 2. Navigate to **Settings → API** and request an API key (select "Developer" usage)
-3. Save your API key — you'll need it for poster downloads
+3. Save your API key, you'll need it for poster downloads
 
 ### Step 2: Get a Film List with IMDB IDs
 

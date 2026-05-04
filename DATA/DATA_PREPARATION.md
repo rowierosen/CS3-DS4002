@@ -2,7 +2,7 @@
 
 ## For the Provided Sample Dataset
 
-The `sample_poster_features.csv` file in this folder is **ready to use** — no additional preparation is needed. It contains pre-extracted visual features for ~1,000 films. Simply load it with:
+The `sample_poster_features.csv` file in this folder is **ready to use** with no additional preparation needed. It contains pre-extracted visual features for ~1,000 films. Simply load it with:
 
 ```python
 import pandas as pd

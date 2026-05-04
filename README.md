@@ -37,6 +37,8 @@ CS3-DS4002/
 
 ## Getting Started
 
+# NOTE: The following steps are for students that want to operate on a reduced sample dataset. The original analysis was performed using the MASTER_RELEASE_SCHEDULE_UPDATE4.csv file, which had data for 80,000+ films. From this, only films with valid financial data (from Box Office Mojo) were selected, and their poster metadata was collected and stored in the file ALL_POSTER_METADATA.csv. In addition, the dataset FEATURE_ENGINEERED_DATA_ALL.csc contains the 21,000+ films, their poster metadata, in addition to more extracted visual features and the revenue variables. These datasets are included if the student wishes to expand their analysis to more films (and get vastly different results than if the student were to only operate on the sample dataset mentioned below). These files are also included if some part of the movie poster/information extraction from TMDb and Box Office Mojo fails, for the FEATURE_ENGINEERED_DATA_ALL.csv contains all of the films and variables needed for a complete statistical analysis without having to scrape any information. Note also, however, that the datasets mentioned above contain many variables not relevant to this project. The relevant variables are listed in the Data Dictionary.
+
 1. **Read the Hook** — `CS3-Movie-Poster-Hook.md` sets the scene and your mission.
 2. **Read the Rubric** — `CS3Rubric.md` details exactly what to produce and how you'll be evaluated.
 3. **Explore the Data** — Start with `DATA/sample_poster_features.csv` and review the `DATA_DICTIONARY.md`.
